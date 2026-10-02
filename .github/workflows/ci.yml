@@ -1,0 +1,13 @@
+name: CI
+
+on:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - uses: actions/checkout@v5
+      - name: Fail when asked to
+        run: test ! -f ci/FAIL

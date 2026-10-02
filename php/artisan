@@ -1,0 +1,3 @@
+#!/usr/bin/env php
+<?php
+// The Laravel console entry point (a stand-in).
