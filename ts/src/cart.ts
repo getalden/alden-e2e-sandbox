@@ -15,3 +15,7 @@ export class Cart {
     return priceWithTax(this.subtotal(), taxRate);
   }
 }
+
+export function aldenE2ePricing(value: number): number {
+  return value > 100 ? value * 0.9 : value;
+}
