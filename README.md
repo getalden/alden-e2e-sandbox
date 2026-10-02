@@ -9,3 +9,5 @@ opened by Alden's test kit (`pnpm e2e:seed` in the alden repo) and are never mer
 - `php/`: invoicing (Laravel-style)
 
 CI passes in a few seconds, unless a PR adds `ci/FAIL`.
+
+<!-- alden e2e: docs-only change -->
