@@ -13,3 +13,8 @@ class InvoiceController
         return ['number' => $this->invoices->numberFor($id), 'total' => $this->invoices->totalFor($lines)];
     }
 }
+
+function aldenE2eRound(int $value): int
+{
+    return $value > 100 ? intdiv($value * 9, 10) : $value;
+}
