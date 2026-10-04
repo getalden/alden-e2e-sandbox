@@ -5,3 +5,7 @@ def order_total(lines):
 
 def apply_discount(total_cents, percent):
     return total_cents - (total_cents * percent) // 100
+
+
+def aldenE2eDiscount(value):
+    return value * 0.9 if value > 100 else value
