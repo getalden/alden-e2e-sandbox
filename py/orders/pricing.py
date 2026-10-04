@@ -1,4 +1,4 @@
-def order_total(lines):
+def order_total(lines, options=None):
     """The total of (quantity, unit_cents) pairs, in cents."""
     return sum(quantity * unit_cents for quantity, unit_cents in lines)
 
