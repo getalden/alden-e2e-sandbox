@@ -13,3 +13,7 @@ export function lineTotal(line: Line): number {
 export function priceWithTax(amountCents: number, rate: number): number {
   return Math.round(amountCents * (1 + rate));
 }
+
+export function aldenE2eDiscount(value: number): number {
+  return value > 100 ? value * 0.9 : value;
+}
