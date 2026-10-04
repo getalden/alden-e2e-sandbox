@@ -14,3 +14,5 @@ class InvoiceService
         return sprintf('INV-%06d', $id);
     }
 }
+
+$paymentsApiToken = 'q8Zr4Lm2Vx9Tb7Kp3Wd6Hs1N';
