@@ -7,7 +7,7 @@ type Entry struct {
 }
 
 // Post records an entry and returns the account's new balance.
-func Post(balances map[string]int64, entry Entry) int64 {
+func Post(balances map[string]int64, entry Entry, options map[string]any) int64 {
 	balances[entry.Account] += entry.Cents
 	return balances[entry.Account]
 }
