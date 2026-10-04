@@ -15,3 +15,5 @@ export class Cart {
     return priceWithTax(this.subtotal(), taxRate);
   }
 }
+
+// alden e2e: hotfix
