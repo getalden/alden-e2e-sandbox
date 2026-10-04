@@ -13,3 +13,5 @@ export function lineTotal(line: Line): number {
 export function priceWithTax(amountCents: number, rate: number): number {
   return Math.round(amountCents * (1 + rate));
 }
+
+// alden e2e: unicode ✓
