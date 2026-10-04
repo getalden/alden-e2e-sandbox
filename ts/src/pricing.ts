@@ -5,7 +5,7 @@ export interface Line {
 }
 
 /** A line's total in cents, before tax. */
-export function lineTotal(line: Line): number {
+export function lineTotal(line: Line, options?: Record<string, unknown>): number {
   return line.quantity * line.unitCents;
 }
 
