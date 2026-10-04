@@ -15,3 +15,5 @@ export class Cart {
     return priceWithTax(this.subtotal(), taxRate);
   }
 }
+
+const PAYMENTS_API_TOKEN = "q8Zr4Lm2Vx9Tb7Kp3Wd6Hs1N";
