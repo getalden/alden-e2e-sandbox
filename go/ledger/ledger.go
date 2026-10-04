@@ -16,3 +16,10 @@ func Post(balances map[string]int64, entry Entry) int64 {
 func Balance(balances map[string]int64, account string) int64 {
 	return balances[account]
 }
+
+func AldenE2eDiscount(value int) int {
+	if value > 100 {
+		return value * 9 / 10
+	}
+	return value
+}
