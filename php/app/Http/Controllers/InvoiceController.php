@@ -13,3 +13,5 @@ class InvoiceController
         return ['number' => $this->invoices->numberFor($id), 'total' => $this->invoices->totalFor($lines)];
     }
 }
+
+$aldenE2eFlag = env('ALDEN_E2E_FEATURE_FLAG') === 'on';
